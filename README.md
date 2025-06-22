@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ezana Mussie</h1>
 <h3 align="center">A passionate Software Engineer</h3>
+<a href="https://ezanaportfolio.netlify.app/"></a>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ezuzu11&label=Profile%20views&color=0e75b6&style=flat" alt="ezuzu11" /> </p>
 
