@@ -1,39 +1,55 @@
-<h1 align="center">ezuzu11</h1>
-<p align="center">Software Engineer · Kigali, Rwanda</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ezuzu11&style=flat-square&color=blueviolet" />
-</p>
+```
+ezuzu11@github:~$ whoami --activity
+```
 
----
+</div>
 
-### GitHub Stats
+<br>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ezuzu11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=ezuzu11&theme=tokyonight&hide_border=true" />
-</p>
+```
+┌──────────────────────────────────────────────────────────────┐
+│  user      : ezuzu11                                         │
+│  location  : Kigali, Rwanda                                  │
+│  status    : shipping                                         │
+└──────────────────────────────────────────────────────────────┘
+```
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ezuzu11&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+<br>
 
----
+<div align="center">
 
-### Contribution Activity
+**live activity** — updated automatically every day, straight from the GitHub API
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ezuzu11&theme=tokyo-night&hide_border=true" />
-</p>
+</div>
 
----
+<!-- STATS:START -->
+**Total contributions:** —  ·  **Current streak:** — day(s)  ·  **Longest streak:** — day(s)
 
-### Trophies
+| Date       | Contributions | Activity |
+|------------|---------------|----------|
+| pending    | pending       | pending  |
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ezuzu11&theme=tokyonight&no-frame=true&row=1&column=7" />
-</p>
+<sub>Last updated: not yet run</sub>
+<!-- STATS:END -->
 
----
+<br>
 
-<p align="center"><i>Always shipping — check the pinned repos below for recent work.</i></p>
+<div align="center">
+
+**stack in rotation**
+
+`Python` · `Django` · `Java` · `JavaScript` · `MySQL` · `PostgreSQL` · `Git`
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+ezuzu11@github:~$ echo "check the pinned repos ↓"
+```
+
+</div>
