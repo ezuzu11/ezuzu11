@@ -1,68 +1,53 @@
 <div align="center">
 
-```
-ezuzu11@github:~$ whoami --activity
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=180&section=header&text=ezuzu11&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20Kigali%2C%20Rwanda&descAlignY=58&descSize=18" width="100%"/>
 
 </div>
 
-<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/status-shipping-2c5364?style=for-the-badge&labelColor=0f2027" />
+  <img src="https://img.shields.io/badge/based%20in-Kigali%2C%20Rwanda-2c5364?style=for-the-badge&labelColor=0f2027" />
+</p>
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  user      : ezuzu11                                         │
-│  location  : Kigali, Rwanda                                  │
-│  status    : shipping                                         │
-└──────────────────────────────────────────────────────────────┘
-```
-
-<br>
-
-<div align="center">
-
-**live activity** — updated automatically every day, straight from the GitHub API
-
-</div>
+<h3 align="center">📊 Live Activity</h3>
+<p align="center"><sub>pulled straight from the GitHub API and refreshed automatically every day</sub></p>
 
 <!-- STATS:START -->
-**Total contributions:** 4  ·  **Current streak:** 1 day(s)  ·  **Longest streak:** 1 day(s)
+<div align="center">
 
-| Date       | Contributions | Activity |
-|------------|---------------|----------|
-| Aug 31     |       0       | ·          |
-| Sep 01     |       0       | ·          |
-| Sep 02     |       0       | ·          |
-| Sep 03     |       0       | ·          |
-| Sep 04     |       0       | ·          |
-| Sep 05     |       0       | ·          |
-| Sep 06     |       0       | ·          |
-| Sep 07     |       0       | ·          |
-| Sep 08     |       0       | ·          |
-| Sep 09     |       0       | ·          |
-| Sep 10     |       0       | ·          |
-| Sep 11     |       0       | ·          |
-| Sep 12     |       0       | ·          |
-| Sep 13     |       4       | ████       |
+<table>
+<tr>
+<td align="center">🔥<br><b>—</b><br><sub>Total Contributions</sub></td>
+<td align="center">⚡<br><b>—</b><br><sub>Current Streak</sub></td>
+<td align="center">🏆<br><b>—</b><br><sub>Longest Streak</sub></td>
+</tr>
+</table>
 
-<sub>Last updated: 2026-09-13 19:27 UTC</sub>
+| 📅 Date | 🔢 Contributions | 🔥 Activity |
+|:---:|:---:|:---:|
+| pending | `—` | ⬛ |
+
+<sub>🕒 Last synced: not yet run</sub>
+
+</div>
 <!-- STATS:END -->
 
 <br>
 
-<div align="center">
+<h3 align="center">🛠️ Stack in Rotation</h3>
 
-**stack in rotation**
-
-`Python` · `Django` · `Java` · `JavaScript` · `MySQL` · `PostgreSQL` · `Git`
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
 
 <br>
 
 <div align="center">
-
-```
-ezuzu11@github:~$ echo "check the pinned repos ↓"
-```
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%"/>
 </div>
