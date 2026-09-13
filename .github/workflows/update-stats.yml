@@ -1,0 +1,35 @@
+name: Update README activity table
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # runs daily at 03:00 UTC
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update stats in README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ezuzu11
+        run: python scripts/update_stats.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update activity stats"
+          git push
