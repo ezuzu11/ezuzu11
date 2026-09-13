@@ -96,24 +96,31 @@ def compute_streaks(days):
     return current, longest
 
 
-def bar(count, scale):
+def heat_square(count, max_count):
+    """Return a colored square emoji scaled to how active the day was."""
     if count == 0:
-        return "·"
-    blocks = min(10, max(1, round(count / scale)))
-    return "█" * blocks
+        return "⬛"
+    ratio = count / max_count if max_count else 0
+    if ratio > 0.75:
+        return "🟩"
+    if ratio > 0.5:
+        return "🟢"
+    if ratio > 0.25:
+        return "🟡"
+    return "🟨"
 
 
 def build_table(days, num_days=14):
     recent = days[-num_days:]
     max_count = max((c for _, c in recent), default=1) or 1
-    scale = max(1, max_count / 10)
 
     lines = []
-    lines.append("| Date       | Contributions | Activity |")
-    lines.append("|------------|---------------|----------|")
+    lines.append("| 📅 Date | 🔢 Contributions | 🔥 Activity |")
+    lines.append("|:---:|:---:|:---:|")
     for date_str, count in recent:
         label = datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d")
-        lines.append(f"| {label:<10} | {count:^13} | {bar(count, scale):<10} |")
+        squares = heat_square(count, max_count) * max(1, min(5, count if count else 1)) if count else "⬛"
+        lines.append(f"| **{label}** | `{count}` | {squares} |")
     return "\n".join(lines)
 
 
@@ -124,11 +131,21 @@ def main():
     updated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
     block = f"""{START_MARKER}
-**Total contributions:** {total}  ·  **Current streak:** {current_streak} day(s)  ·  **Longest streak:** {longest_streak} day(s)
+<div align="center">
+
+<table>
+<tr>
+<td align="center">🔥<br><b>{total}</b><br><sub>Total Contributions</sub></td>
+<td align="center">⚡<br><b>{current_streak}</b><br><sub>Current Streak</sub></td>
+<td align="center">🏆<br><b>{longest_streak}</b><br><sub>Longest Streak</sub></td>
+</tr>
+</table>
 
 {table}
 
-<sub>Last updated: {updated}</sub>
+<sub>🕒 Last synced: {updated}</sub>
+
+</div>
 {END_MARKER}"""
 
     with open(README_PATH, "r", encoding="utf-8") as f:
