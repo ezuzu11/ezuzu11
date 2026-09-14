@@ -18,14 +18,13 @@
 <table>
 <tr>
 <td align="center">🔥<br><b>6</b><br><sub>Total Contributions</sub></td>
-<td align="center">⚡<br><b>1</b><br><sub>Current Streak</sub></td>
+<td align="center">⚡<br><b>0</b><br><sub>Current Streak</sub></td>
 <td align="center">🏆<br><b>1</b><br><sub>Longest Streak</sub></td>
 </tr>
 </table>
 
 | 📅 Date | 🔢 Contributions | 🔥 Activity |
 |:---:|:---:|:---:|
-| **Aug 31** | `0` | ⬛ |
 | **Sep 01** | `0` | ⬛ |
 | **Sep 02** | `0` | ⬛ |
 | **Sep 03** | `0` | ⬛ |
@@ -39,8 +38,9 @@
 | **Sep 11** | `0` | ⬛ |
 | **Sep 12** | `0` | ⬛ |
 | **Sep 13** | `6` | 🟩🟩🟩🟩🟩 |
+| **Sep 14** | `0` | ⬛ |
 
-<sub>🕒 Last synced: 2026-09-13 19:37 UTC</sub>
+<sub>🕒 Last synced: 2026-09-14 08:44 UTC</sub>
 
 </div>
 <!-- STATS:END -->
